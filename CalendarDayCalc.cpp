@@ -28,7 +28,6 @@ int main()
 	bool validDate = false;
 	bool leapYearBool = false;
 	bool keepLoop = true;
-	string dayValStr = "";
 
 	cout << TITLE << endl
 		<< AUTHOR_LINE << endl;
@@ -41,7 +40,6 @@ int main()
 		dayVal = 0, monthVal = 0; yearVal = 0; centuryVal = 0;
 		cout << endl << "Please enter a date in MM DD YYYY format."
 			<< endl << "Example: 12 31 2022" << endl << endl;
-		dayValStr = to_string(dayVal);
 
 		// Read date from user input
 		cin >> month >> day >> year;
